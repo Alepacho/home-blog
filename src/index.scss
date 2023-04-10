@@ -1,0 +1,99 @@
+:root {
+  --color-text: #1b1b15;
+  --color-text-small: #4e5355;
+  --color-text-active: #000000;
+  --color-title: #0a0a0a;
+  --color-link: #0d6efd;
+  --color-link-hover: #075cdc;
+  --color-border: #d7dadf;
+  --color-back: #fafafb;
+  --color-bkg-card: #e8e8e8d9;
+  --color-bkg: #f1f0f0d9;
+  --color-bkg2: #ececec;
+  --color-bkg2-active: #f5f5f5;
+  --color-shadow: #e6e7e9;
+}
+
+.dark {
+  --color-text: #e4e4ea;
+  --color-text-small: #58585e;
+  --color-text-active: #ffffff;
+  --color-title: #f5f5f5;
+  --color-border: #2e3339;
+  --color-back: #040405;
+  --color-bkg: #131518d9;
+  --color-bkg-card: #171b1ed9;
+  --color-bkg2: #131518;
+  --color-bkg2-active: #171a1d;
+  --color-shadow: #131518;
+  
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  transition: all 100ms ease;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-title);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: var(--color-link);
+  transition: 300ms;
+}
+
+a:hover {
+  transition: 300ms;
+  color: var(--color-link);
+  border-color: var(--color-link);
+}
+
+.form-control,
+.form-control:active,
+.form-control:hover,
+.form-control:focus {
+  background: var(--color-back) !important;
+  border-color: var(--color-border) !important;
+  box-shadow: none !important;
+  color: var(--color-text);
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+textarea {
+  resize: none;
+}
+
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: 5px;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}

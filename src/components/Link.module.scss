@@ -1,0 +1,14 @@
+.Link {
+    color: var(--color-link);
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.Link:hover {
+    color: var(--color-link-hover);
+    transition: 300ms;
+    border-color: var(--color-link-hover);
+    cursor: pointer;
+}

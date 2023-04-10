@@ -1,0 +1,9 @@
+.dark {
+    filter: invert(0);
+    transition: 300ms;
+}
+
+.white {
+    filter: invert(1);
+    transition: 300ms;
+}

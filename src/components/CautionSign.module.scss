@@ -1,0 +1,21 @@
+.sign {
+    color: black;
+    background-color: #fac346;
+    border-color: #ac7e00;
+    border-radius: 1em;
+    // border-style: dashed;
+    border-width: 0.175em;
+    box-shadow: 0px 0px 15px var(--color-shadow);
+    transform: scale(1);
+    transition: 300ms;
+}
+
+.sign:active {
+    transform: scale(0.99);
+    transition: 300ms;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+}

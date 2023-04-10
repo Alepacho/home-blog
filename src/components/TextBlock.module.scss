@@ -1,0 +1,25 @@
+
+.TextBlock {
+    // padding: 15px;
+    // padding: 0;
+    text-align: justify;
+    justify-content: center;
+    
+    border-radius: 1em;
+}
+
+.content {
+    box-shadow: 0px 0px 15px var(--color-shadow);
+    padding: 15px;
+    // padding: 30px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text) !important;
+    border-radius: 1em;
+    transition: 300ms;
+    background: var(--color-bkg) !important;
+}
+
+.content:hover {
+    background: var(--color-bkg-card) !important;
+    transition: 300ms;
+}
